@@ -1,36 +1,43 @@
-## Autonomous software that builds itself
+## AI agents that actually use computers
 
-An AI agent orchestration platform that writes, reviews, deploys, and evolves its own code.
+We build digital employees — not chatbots. Agents that control mouse and keyboard, browse the web, SSH into servers, open applications, and get real work done.
+
+### What our agents can do
+
+| Capability | Description |
+|-----------|-------------|
+| **Mouse & Keyboard** | Move cursors, click buttons, type into fields, use shortcuts |
+| **Browser Sessions** | Navigate websites, fill forms, extract data, take screenshots |
+| **Run Applications** | IDEs, spreadsheets, design tools, terminals |
+| **SSH Into Anything** | Servers, containers, VMs, routers, IoT devices, cloud instances |
+| **File System** | Read, write, organize files across codebases and documents |
+| **Shell & CLI** | Build scripts, deploy pipelines, test suites, piped commands |
 
 ### Projects
 
 | Project | Description |
 |---------|------------|
-| **AskAlf** (private) | Production monorepo — Forge orchestration engine, dashboard, MCP tools, all packages |
-| [**Amnesia**](https://github.com/SprayberryLabs/amnesia) | Privacy-first search engine — live at [amnesia.tax](https://amnesia.tax) |
+| **AskAlf** | AI agent platform — fleet orchestration, multi-provider, cost control, guardrails. Live at [askalf.org](https://askalf.org) |
+| [**Amnesia**](https://github.com/SprayberryLabs/amnesia) | Privacy-first search aggregator — no tracking, no ads, no history. Live at [amnesia.tax](https://amnesia.tax) |
 
-### How it works
+### Platform
 
-`24 MCP tools` · `13 containers` · `4 production services` · `4 autonomous agents`
+`11 agents` · `24 MCP tools` · `13 containers` · `4 production services`
 
-```
-Ticket created -> Agent picks it up
-  -> Code written + committed on isolated branch
-  -> Risk classified (low/med/high)
-  -> Auto-merge to main (low risk) or held for review (high risk)
-  -> Deploy triggered with health check + rollback
-  -> Ticket resolved
-```
+Fleet orchestration · Multi-provider (Anthropic, OpenAI, Google) · Per-agent cost control · Human-in-the-loop guardrails · Full observability
 
 ### Stack
 
-`TypeScript` · `Claude (Anthropic)` · `OpenAI` · `Claude Code CLI` · `MCP Protocol` · `Fastify` · `PostgreSQL 17` · `pgvector` · `Redis` · `Docker` · `Nginx` · `Cloudflare`
+`TypeScript` · `Node.js 22` · `Fastify v5` · `Claude (Anthropic)` · `Claude Code CLI` · `MCP Protocol` · `PostgreSQL 17 + pgvector` · `Redis` · `Docker` · `Nginx` · `Cloudflare Zero Trust`
 
 ### Live
 
-- [askalf.org](https://askalf.org) — Agent dashboard
+- [askalf.org](https://askalf.org) — AI agent platform
 - [amnesia.tax](https://amnesia.tax) — Search engine
+- [@sprayberrylabs](https://x.com/sprayberrylabs) — X / Twitter
 
 ### Available for contract work
 
-AI agent systems, MCP tooling, production AI infrastructure.
+AI agent systems, computer-use automation, MCP tooling, production AI infrastructure.
+
+📍 Atlanta, GA · ✉️ support@askalf.org
