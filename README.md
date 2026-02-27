@@ -1,43 +1,55 @@
-## AI agents that actually use computers
+# Sprayberry Labs
 
-We build digital employees — not chatbots. Agents that control mouse and keyboard, browse the web, SSH into servers, open applications, and get real work done.
+**Building AI agents that actually use computers.**
 
-### What our agents can do
+Not chatbots. Not copilots. Digital employees that control mouse and keyboard, browse the web, SSH into servers, and run applications — exactly like a human worker.
+
+## What Our Agents Do
 
 | Capability | Description |
 |-----------|-------------|
-| **Mouse & Keyboard** | Move cursors, click buttons, type into fields, use shortcuts |
-| **Browser Sessions** | Navigate websites, fill forms, extract data, take screenshots |
-| **Run Applications** | IDEs, spreadsheets, design tools, terminals |
-| **SSH Into Anything** | Servers, containers, VMs, routers, IoT devices, cloud instances |
-| **File System** | Read, write, organize files across codebases and documents |
-| **Shell & CLI** | Build scripts, deploy pipelines, test suites, piped commands |
+| Mouse & Keyboard | Move cursors, click buttons, type into fields, use shortcuts |
+| Real Browser Sessions | Navigate websites, fill forms, extract data, take screenshots |
+| Run Any Application | IDEs, spreadsheets, design tools, terminals |
+| SSH Into Anything | Servers, containers, VMs, routers, IoT, cloud instances |
+| File System Control | Read, write, organize files across codebases and documents |
+| Shell & CLI | Build scripts, deploy pipelines, test suites, piped commands |
 
-### Projects
+## Security & Privacy
 
-| Project | Description |
-|---------|------------|
-| **AskAlf** | AI agent platform — fleet orchestration, multi-provider, cost control, guardrails. Live at [askalf.org](https://askalf.org) |
-| [**Amnesia**](https://github.com/SprayberryLabs/amnesia) | Privacy-first search aggregator — no tracking, no ads, no history. Live at [amnesia.tax](https://amnesia.tax) |
+Agents with full computer access demand uncompromising security:
 
-### Platform
+- **End-to-End Encryption** — TLS 1.3 in transit, AES-256 at rest
+- **Zero-Knowledge Architecture** — Per-tenant encryption keys. We cannot read your data
+- **Full Audit Trail** — Immutable, tamper-proof logs for every agent action
+- **SOC 2 Type II** — Annual third-party security audits
+- **Credential Vault** — Hardware-backed secrets management, injected at runtime
+- **Sandboxed Execution** — Isolated containers with kernel-level enforcement
 
-`11 agents` · `24 MCP tools` · `13 containers` · `4 production services`
+## Projects
 
-Fleet orchestration · Multi-provider (Anthropic, OpenAI, Google) · Per-agent cost control · Human-in-the-loop guardrails · Full observability
+| Project | Description | Link |
+|---------|-------------|------|
+| **AskAlf** | AI agent platform — fleet orchestration, multi-provider, cost controls, guardrails | [askalf.org](https://askalf.org) |
+| **Amnesia** | Privacy-first search engine — no tracking, no ads, no profiling | [amnesia.tax](https://amnesia.tax) |
 
-### Stack
+## Platform Stats
 
-`TypeScript` · `Node.js 22` · `Fastify v5` · `Claude (Anthropic)` · `Claude Code CLI` · `MCP Protocol` · `PostgreSQL 17 + pgvector` · `Redis` · `Docker` · `Nginx` · `Cloudflare Zero Trust`
+- **11 specialized agents** — 5 internal (dev ops) + 6 user-facing (research, security, dev, content, monitoring, analysis)
+- **24 MCP tools** — database, Docker, web search, code analysis, team coordination
+- **Multi-provider** — Anthropic Claude, OpenAI, Google GenAI. Switch per-agent, per-task
+- **Fleet orchestration** — fan-out tasks, pipeline workflows, consensus patterns
 
-### Live
+## Stack
 
-- [askalf.org](https://askalf.org) — AI agent platform
+`TypeScript` · `Node.js 22` · `Fastify v5` · `Claude (Anthropic)` · `OpenAI` · `Google GenAI` · `MCP Protocol` · `PostgreSQL 17 + pgvector` · `Redis` · `Docker` · `Cloudflare Zero Trust`
+
+## Links
+
+- [askalf.org](https://askalf.org) — Platform
 - [amnesia.tax](https://amnesia.tax) — Search engine
 - [@sprayberrylabs](https://x.com/sprayberrylabs) — X / Twitter
 
-### Available for contract work
+---
 
-AI agent systems, computer-use automation, MCP tooling, production AI infrastructure.
-
-📍 Atlanta, GA · ✉️ support@askalf.org
+*Atlanta, GA — Available for contract work. [support@askalf.org](mailto:support@askalf.org)*
